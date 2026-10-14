@@ -8,7 +8,7 @@ metadata:
     template:
       spec:
       containers:
-        - name: sleep
+      - name: sleep
         image: alpine:latest
         command: ["echo", "pre-sync"]
       restartPolicy: Never
